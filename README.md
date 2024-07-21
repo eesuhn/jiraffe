@@ -49,5 +49,6 @@
 ### Contributors
 
 - [ChiefWoods](https://github.com/ChiefWoods)
-- [CWeyK](https://github.com/CWeyK)
 - [Karweiii](https://github.com/Karweiii)
+- [eesuhn](https://github.com/eesuhn)
+- [CWeyK](https://github.com/CWeyK)
