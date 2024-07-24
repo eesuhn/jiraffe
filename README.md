@@ -22,27 +22,35 @@
 
 ### Running it locally...
 
-1. Install all dependencies for `backend`
-
+1. Install dependencies in `backend/`
+	```bash
+	cd backend/
+	npm i --force
 	```
-	cd backend && npm install
+
+2. In a new terminal, navigate to `frontend/` and install dependencies
+	```bash
+	cd frontend/
+	npm i --force
 	```
 
-2. Start Nodemon server for backend
+3. Rename `sample.env` to `.env` for both `backend/` and `frontend/`
 
+4. In `backend/.env`, set the following environment variables:
+	```properties
+	MONGODB_URI=
+	JWT_SECRET=
 	```
+
+5. Start the backend server
+	```bash
+	cd backend/
 	npm run start
 	```
 
-3. In a new terminal, install all dependencies for `frontend`
-
-	```
-	cd frontend && npm install
-	```
-
-4. Start development server for frontend
-
-	```
+6. In a new terminal, start the frontend server
+	```bash
+	cd frontend/
 	npm run dev
 	```
 
